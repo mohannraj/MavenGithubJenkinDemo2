@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="version" value="63"></parameter>
+    <classes>
+      <class name="qsp.MavenProjectDemo2"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
